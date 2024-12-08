@@ -1,0 +1,1002 @@
+CRITICAL - 2024-12-08 02:32:40 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 02:32:49 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 02:33:31 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 02:35:13 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 02:36:06 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 02:36:08 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 02:36:15 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 02:39:02 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 02:39:05 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 02:41:42 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:00:55 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:00:57 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:01:01 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:01:01 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:01:01 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:01:08 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:04:43 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 03:05:01 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 03:06:09 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:07:28 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:07:42 --> Invalid argument supplied for foreach()
+#0 C:\Users\Hp\Documents\project1\app\Views\dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\Hp\\Doc...', 42, Array)
+#1 C:\Users\Hp\Documents\project1\system\View\View.php(210): include('C:\\Users\\Hp\\Doc...')
+#2 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#10 {main}
+CRITICAL - 2024-12-08 03:07:53 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 03:08:27 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 03:08:33 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 03:08:50 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 03:08:54 --> syntax error, unexpected end of file
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(54): view('dashboard')
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-08 03:16:57 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\Hp\Documents\project1\app\Controllers\Home.php on line 271 and exactly 2 expected
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(271): App\Models\M_belajar->tampil('paket')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->tpaket()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:19:16 --> Cannot redeclare App\Controllers\Home::torder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-08 03:19:17 --> Cannot redeclare App\Controllers\Home::torder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-08 03:19:23 --> Cannot redeclare App\Controllers\Home::torder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-08 03:19:25 --> Cannot redeclare App\Controllers\Home::torder()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-12-08 03:31:47 --> Column 'nama_paket' cannot be null
+ERROR - 2024-12-08 03:32:55 --> Column 'nama_paket' cannot be null
+ERROR - 2024-12-08 03:32:55 --> Table 'laundry.barang_keluar' doesn't exist
+CRITICAL - 2024-12-08 03:32:55 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(227): App\Models\M_belajar->join('barang_keluar', 'barang', 'barang_keluar.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->daftarpaket()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:35:13 --> Table 'laundry.barang_keluar' doesn't exist
+CRITICAL - 2024-12-08 03:35:13 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(227): App\Models\M_belajar->join('barang_keluar', 'barang', 'barang_keluar.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->daftarpaket()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:35:15 --> Table 'laundry.barang_keluar' doesn't exist
+CRITICAL - 2024-12-08 03:35:15 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(227): App\Models\M_belajar->join('barang_keluar', 'barang', 'barang_keluar.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->daftarpaket()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:51:44 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftarpake...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftarpake...')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:51:45 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftarpake...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftarpake...')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:52:25 --> syntax error, unexpected '"berat"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftarpake...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftarpake...')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:52:27 --> syntax error, unexpected '"berat"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftarpake...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftarpake...')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:53:31 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftarpake...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftarpake...')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:57:55 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tpaket')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tpaket')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:57:56 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:57:57 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/order')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/order')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:57:59 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:58:01 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:58:02 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 03:58:05 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laundry')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laundry')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:58:19 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 03:58:19 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:58:20 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 03:58:20 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:58:44 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 03:58:44 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:58:46 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 03:58:46 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:59:04 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 03:59:04 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:59:05 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 03:59:05 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:59:37 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 03:59:37 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 03:59:38 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 03:59:38 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:00:30 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:00:30 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:00:31 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:00:31 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:00:31 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:00:31 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:00:31 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:00:31 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:00:31 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:00:31 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:00:31 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:00:31 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:00:32 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:00:32 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:00:35 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:00:35 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 04:02:00 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laundry')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laundry')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 04:02:01 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laundry')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laundry')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:03:06 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:03:06 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:03:23 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:03:23 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:03:25 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:03:25 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 04:04:01 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-08 04:04:02 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-12-08 04:04:33 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:04:33 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:04:34 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:04:34 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:26:34 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:26:34 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:26:36 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:26:36 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:26:36 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:26:36 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:26:36 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:26:36 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:26:37 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:26:37 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:26:37 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:26:37 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:27:19 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:27:19 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:27:19 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:27:19 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:27:20 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:27:20 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:27:54 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:27:54 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:27:55 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:27:55 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:27:55 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:27:55 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:28:03 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:28:03 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:29:11 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:29:11 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:30:10 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:30:10 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:30:11 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:30:11 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:33:06 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:33:06 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 04:36:03 --> syntax error, unexpected end of file, expecting ';'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laundry')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laundry')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 04:36:05 --> syntax error, unexpected end of file, expecting ';'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laundry')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laundry')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-08 04:36:05 --> syntax error, unexpected end of file, expecting ';'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laundry')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laundry')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:37:34 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:37:34 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(79): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:37:47 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:37:47 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(79): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:37:47 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:37:47 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(79): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:37:48 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:37:48 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(79): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 04:37:48 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 04:37:48 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(79): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:01:23 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:01:23 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(74): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:01:26 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:01:26 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(74): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:04:57 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:04:57 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(83): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:04:57 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:04:57 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(83): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:05:47 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:05:47 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:05:48 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:05:48 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:05:48 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:05:48 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:05:48 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:05:48 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:05:49 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:05:49 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:12:28 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:12:28 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:12:30 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:12:30 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:12:31 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:12:31 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 05:12:32 --> Table 'laundry.pakaian' doesn't exist
+CRITICAL - 2024-12-08 05:12:32 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(72): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-08 06:38:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-12-08 06:38:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\Hp\Documents\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Hp\Documents\project1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Hp\Documents\project1\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(82): App\Models\M_belajar->tampil('pakaian', 'id_pakaian')
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->laundry()
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#9 {main}

@@ -1,0 +1,2 @@
+<link rel="stylesheet" type="text/css" href="<?= base_url('fontawesome/css/fontawesome.min.css'); ?>">
+            <link rel="stylesheet" type="text/css" href="<?= base_url('fontawesome/css/all.css'); ?>">

@@ -1,0 +1,304 @@
+ERROR - 2024-12-02 03:15:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-12-02 03:15:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\Hp\Documents\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Hp\Documents\project1\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Hp\Documents\project1\app\Models\M_belajar.php(39): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(374): App\Models\M_belajar->join('karyawan', 'user', 'karyawan.id_use...')
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#9 {main}
+CRITICAL - 2024-12-02 05:14:10 --> syntax error, unexpected ')'
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('karyawan', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(376): view('karyawan', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-02 05:14:38 --> syntax error, unexpected ')'
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('karyawan', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(376): view('karyawan', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->karyawan()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+ERROR - 2024-12-02 05:26:34 --> Unknown column 'username' in 'field list'
+ERROR - 2024-12-02 05:29:41 --> Unknown column 'username' in 'field list'
+CRITICAL - 2024-12-02 05:33:15 --> Invalid file: userr.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('userr.php')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('userr', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(301): view('userr', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->userr()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+ERROR - 2024-12-02 05:35:33 --> Unknown column 'username' in 'field list'
+CRITICAL - 2024-12-02 05:36:13 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(160): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-12-02 05:43:53 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-02 05:45:04 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-02 05:45:13 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-02 05:45:37 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-02 05:45:39 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-02 05:45:41 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-02 05:45:42 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-12-02 05:46:54 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/userr')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/userr')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 05:47:02 --> Cannot redeclare App\Controllers\Home::daftarpaket()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-12-02 05:47:25 --> Table 'laundry.barang_keluar' doesn't exist
+CRITICAL - 2024-12-02 05:47:25 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(228): App\Models\M_belajar->join('barang_keluar', 'barang', 'barang_keluar.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->daftarpaket()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-02 05:47:43 --> Table 'laundry.barang_keluar' doesn't exist
+CRITICAL - 2024-12-02 05:47:43 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(228): App\Models\M_belajar->join('barang_keluar', 'barang', 'barang_keluar.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->daftarpaket()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-02 05:48:01 --> Table 'laundry.barang_keluar' doesn't exist
+CRITICAL - 2024-12-02 05:48:01 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(228): App\Models\M_belajar->join('barang_keluar', 'barang', 'barang_keluar.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->daftarpaket()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-02 06:30:11 --> Table 'laundry.order' doesn't exist
+CRITICAL - 2024-12-02 06:30:11 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(479): App\Models\M_belajar->tampil('order', 'id_order')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->order()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-12-02 07:27:18 --> Unknown column 'username' in 'field list'
+ERROR - 2024-12-02 07:28:17 --> Column 'tgl_masuk' cannot be null
+CRITICAL - 2024-12-02 07:36:50 --> You must set the database table to be used with your query.
+#0 C:\Users\Hp\Documents\project1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\Hp\Documents\project1\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(516): CodeIgniter\Model->__call('get_last_order', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_torder()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+ERROR - 2024-12-02 07:41:46 --> Unknown column 'username' in 'field list'
+ERROR - 2024-12-02 07:45:16 --> Unknown column 'username' in 'field list'
+CRITICAL - 2024-12-02 18:35:25 --> Call to a member function table() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-12-02 18:36:52 --> Call to a member function table() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-12-02 18:56:56 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:57:22 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:57:23 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:58:09 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:58:34 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:58:35 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:59:16 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:59:17 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/karyawan')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/karyawan')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:59:19 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/order')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/order')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:59:19 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/userr')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/userr')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:59:20 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:59:21 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tky')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tky')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 18:59:23 --> syntax error, unexpected '"tarif"' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/daftar')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/daftar')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-12-02 19:03:20 --> Call to a member function table() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-12-02 19:05:20 --> Call to a member function table() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-12-02 19:05:45 --> Call to a member function table() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-12-02 19:08:02 --> Call to a member function table() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-12-02 19:08:39 --> Call to a member function table() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-12-02 19:10:26 --> Allowed fields must be specified for model: App\Models\M_belajar
+#0 C:\Users\Hp\Documents\project1\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\M_be...')
+#1 C:\Users\Hp\Documents\project1\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\Users\Hp\Documents\project1\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(456): CodeIgniter\Model->insert(Array)
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#9 {main}

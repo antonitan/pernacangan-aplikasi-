@@ -1,0 +1,103 @@
+CRITICAL - 2024-11-13 18:44:13 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-13 18:44:15 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-13 18:53:13 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laundry')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laundry')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-13 18:53:15 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\Hp\Documents\project1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/laundry')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/laundry')
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-13 18:57:50 --> Class 'App\Models\M_belajar' not found
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-11-13 19:03:43 --> Class 'App\Models\M_belajar' not found
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-11-13 19:03:46 --> Class 'App\Models\M_belajar' not found
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-11-13 19:04:02 --> Class 'App\Models\M_belajar' not found
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-11-13 19:07:27 --> Class 'App\Models\M_belajar' not found
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+ERROR - 2024-11-13 19:20:42 --> Table 'laundry.barang_masuk' doesn't exist
+CRITICAL - 2024-11-13 19:20:42 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(152): App\Models\M_belajar->join('barang_masuk', 'barang', 'barang_masuk.id...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->barang_m()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-13 19:21:53 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\Hp\Documents\project1\app\Controllers\Home.php on line 126 and exactly 2 expected
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(126): App\Models\M_belajar->tampil('barang')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->tbb()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-13 21:52:47 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\Hp\Documents\project1\app\Controllers\Home.php on line 126 and exactly 2 expected
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(126): App\Models\M_belajar->tampil('pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->tp()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-13 21:53:22 --> Too few arguments to function App\Models\M_belajar::tampil(), 1 passed in C:\Users\Hp\Documents\project1\app\Controllers\Home.php on line 126 and exactly 2 expected
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(126): App\Models\M_belajar->tampil('pakaian')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->tp()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-11-13 22:00:01 --> Unknown column 'nama_barang' in 'field list'
+ERROR - 2024-11-13 22:17:34 --> Unknown column 'kode_pakain' in 'field list'
+ERROR - 2024-11-13 22:21:45 --> Unknown column 'kode_pakain' in 'field list'

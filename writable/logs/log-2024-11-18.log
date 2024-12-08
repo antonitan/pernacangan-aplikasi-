@@ -1,0 +1,51 @@
+ERROR - 2024-11-18 00:02:58 --> Unknown column 'nama_karyawan' in 'field list'
+ERROR - 2024-11-18 00:02:58 --> Column 'username' cannot be null
+ERROR - 2024-11-18 00:03:06 --> Unknown column 'nama_karyawan' in 'field list'
+ERROR - 2024-11-18 00:03:06 --> Column 'username' cannot be null
+ERROR - 2024-11-18 00:03:58 --> Unknown column 'nama_karyawan' in 'field list'
+ERROR - 2024-11-18 00:03:58 --> Column 'username' cannot be null
+ERROR - 2024-11-18 00:04:57 --> Unknown column 'nama_karyawan' in 'field list'
+ERROR - 2024-11-18 00:04:57 --> Column 'username' cannot be null
+ERROR - 2024-11-18 00:05:12 --> Unknown column 'nama_karyawan' in 'field list'
+ERROR - 2024-11-18 00:05:12 --> Column 'username' cannot be null
+CRITICAL - 2024-11-18 00:08:22 --> Class 'App\Controllers\Model2' not found
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tky()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+ERROR - 2024-11-18 00:08:36 --> Unknown column 'nama_karyawan' in 'field list'
+ERROR - 2024-11-18 00:08:36 --> Column 'username' cannot be null
+ERROR - 2024-11-18 00:09:39 --> Column 'nama' cannot be null
+ERROR - 2024-11-18 00:09:39 --> Column 'username' cannot be null
+ERROR - 2024-11-18 00:20:38 --> Duplicate entry '0' for key 'id_user'
+ERROR - 2024-11-18 00:21:17 --> Duplicate entry '0' for key 'id_user'
+ERROR - 2024-11-18 00:43:10 --> Duplicate entry '0' for key 'id_user'
+ERROR - 2024-11-18 00:52:33 --> Duplicate entry '0' for key 'id_user'
+ERROR - 2024-11-18 18:42:43 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2024-11-18 18:42:43 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(425): App\Models\M_belajar->tampil('pakaian', 'id_barang')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->tky()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-11-18 18:43:59 --> Duplicate entry '0' for key 'id_user'
+ERROR - 2024-11-18 18:56:11 --> Column 'level' cannot be null
+ERROR - 2024-11-18 18:56:33 --> Column 'level' cannot be null
+CRITICAL - 2024-11-18 23:50:29 --> Call to a member function getWhere() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}
+CRITICAL - 2024-11-18 23:53:28 --> Call to a member function getWhere() on null
+#0 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#5 {main}

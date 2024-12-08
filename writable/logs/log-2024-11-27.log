@@ -1,0 +1,153 @@
+ERROR - 2024-11-27 18:41:31 --> Unknown column 'pakaian.id_bpakaianq4' in 'on clause'
+CRITICAL - 2024-11-27 18:41:31 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(158): App\Models\M_belajar->join('pakaian_masuk', 'pakaian', 'pakaian_masuk.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-11-27 18:46:25 --> Unknown column 'pakaian.id_bpakaianq4' in 'on clause'
+CRITICAL - 2024-11-27 18:46:25 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(158): App\Models\M_belajar->join('pakaian_masuk', 'pakaian', 'pakaian_masuk.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-11-27 18:46:27 --> Unknown column 'pakaian.id_bpakaianq4' in 'on clause'
+CRITICAL - 2024-11-27 18:46:27 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(158): App\Models\M_belajar->join('pakaian_masuk', 'pakaian', 'pakaian_masuk.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-11-27 18:46:28 --> Unknown column 'pakaian.id_bpakaianq4' in 'on clause'
+CRITICAL - 2024-11-27 18:46:28 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(158): App\Models\M_belajar->join('pakaian_masuk', 'pakaian', 'pakaian_masuk.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-11-27 18:46:28 --> Unknown column 'pakaian.id_bpakaianq4' in 'on clause'
+CRITICAL - 2024-11-27 18:46:28 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(158): App\Models\M_belajar->join('pakaian_masuk', 'pakaian', 'pakaian_masuk.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-27 18:49:05 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-11-27 18:49:12 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-11-27 18:49:28 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-11-27 18:49:52 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+ERROR - 2024-11-27 18:52:46 --> Unknown column 'pakaian.id_pakaianmasuk' in 'on clause'
+CRITICAL - 2024-11-27 18:52:46 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(158): App\Models\M_belajar->join('pakaian_masuk', 'pakaian', 'pakaian_masuk.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+ERROR - 2024-11-27 18:53:00 --> Unknown column 'pakaian.id_pakaianmasuk' in 'on clause'
+CRITICAL - 2024-11-27 18:53:00 --> Call to a member function getResult() on bool
+#0 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(158): App\Models\M_belajar->join('pakaian_masuk', 'pakaian', 'pakaian_masuk.i...')
+#1 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#2 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#6 {main}
+CRITICAL - 2024-11-27 18:53:12 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-11-27 18:53:49 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-11-27 18:54:39 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-11-27 18:59:03 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
+CRITICAL - 2024-11-27 19:00:08 --> Invalid file: pakaian_masuk.php
+#0 C:\Users\Hp\Documents\project1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pakaian_masuk.p...')
+#1 C:\Users\Hp\Documents\project1\system\Common.php(1089): CodeIgniter\View\View->render('pakaian_masuk', Array, true)
+#2 C:\Users\Hp\Documents\project1\app\Controllers\Home.php(161): view('pakaian_masuk', Array)
+#3 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(832): App\Controllers\Home->pakaian_m()
+#4 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Hp\Documents\project1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Hp\Documents\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Hp\Documents\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Hp\\Doc...')
+#8 {main}
